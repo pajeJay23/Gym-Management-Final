@@ -138,7 +138,7 @@ public class login extends javax.swing.JFrame {
        {
            jPasswordField1.setText("Enter Password");
            jPasswordField1.setForeground(new Color(0, 118, 221));
-       
+           
        }
     }//GEN-LAST:event_jPasswordField1FocusLost
 
@@ -152,7 +152,7 @@ public class login extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-       if (jTextField1.getText().equals("gms") && jPasswordField1.getText().equals("admin"))
+       if (jTextField1.getText().equals("gmc") && jPasswordField1.getText().equals("admin"))
        {
            setVisible(false);
            new home(). setVisible(true);
